@@ -1,4 +1,5 @@
 ### Joy Bits
+Fun Time is Game Time
 
 Friendly and memorable, ideal for a collection of quick games people can play during breaks.
 
@@ -8,25 +9,12 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch version-16
+bench get-app https://github.com/itsAditya22/joy_bits.git --branch version-16
 bench install-app joy_bits
 ```
 
-### Contributing
+<img width="1915" height="888" alt="Screenshot from 2026-10-16 16-30-05" src="https://github.com/user-attachments/assets/1d174d3e-7bcc-48ab-a624-2fd36f96bfbb" />
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/joy_bits
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
 
 ### License
 
